@@ -12,5 +12,5 @@ console.log('poluprecnik pice je:', r)
 let P = (r ** 2) * Math.PI
 console.log('povrsina pice je:', P, 'cm2')
 
-let CenaPicePoCm2 = P / cena
-console.log('cena pice po cm2 je:', CenaPicePoCm2)
+let CenaPicePoCm2 = cena / P
+console.log('cena pice po cm2 je:', CenaPicePoCm2, 'dinara.')
