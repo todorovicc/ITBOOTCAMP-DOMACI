@@ -12,4 +12,4 @@ function dobaDana(sat) {
         return "niste uneli validan sat (0-24)"
     }
 }
-console.log(dobaDana(17))
+console.log(dobaDana(14))
