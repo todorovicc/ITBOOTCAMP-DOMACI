@@ -51,4 +51,5 @@ btnNow2.addEventListener("click", () => {
 
     count = 0
     console.log('0 pizzas selected')
+
 })
