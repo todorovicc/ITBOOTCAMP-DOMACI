@@ -127,7 +127,6 @@ btnStrongest.addEventListener('click', () => {
     let opis = document.createElement('p');
     let img = document.createElement('img');
 
-
     opis.innerText = `STRONGEST POKEMON IS:\n
             Name: ${strongest.name}\n 
             Type: ${strongest.type}\n 
@@ -140,7 +139,7 @@ btnStrongest.addEventListener('click', () => {
     opis.style.fontSize = '90%';
 
     img.src = `images/${strongest.name}.png`;
-    img.style.width = "280px";
+    img.style.width = "320px";
     div2.style.flex = 'left';
     div2.style.padding = "10px"
     div2.style.margin = "20px"
